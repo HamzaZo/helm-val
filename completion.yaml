@@ -1,0 +1,14 @@
+name: val
+commands:
+  - name: fetch
+    flags:
+      - c
+      - kube-context
+      - k
+      - kubeconfig
+      - n
+      - namespace
+      - o
+      - output
+      - r
+      - revision

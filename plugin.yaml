@@ -1,0 +1,8 @@
+name: "val"
+version: "0.1.0"
+usage: "Fetch values from an old release"
+description: "Fetch values from an old release"
+command: "$HELM_PLUGIN_DIR/bin/val"
+hooks:
+  install: "cd $HELM_PLUGIN_DIR; scripts/install_plugin.sh"
+  update: "cd $HELM_PLUGIN_DIR; scripts/install_plugin.sh"
