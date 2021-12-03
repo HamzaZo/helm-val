@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/HamzaZo/helm-val/cmd"
+	_ "k8s.io/client-go/plugin/pkg/client/auth" //required for auth
 	"os"
 )
 
