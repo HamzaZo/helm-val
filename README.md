@@ -19,7 +19,7 @@ $ helm plugin update val
 ```
 Install a specific version
 ```shell
-$ helm plugin install https://github.com/HamzaZo/helm-val --version 0.1.0
+$ helm plugin install https://github.com/HamzaZo/helm-val --version 0.3.0
 ```
 You can also verify it's been installed using
 ```shell
