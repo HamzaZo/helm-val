@@ -1,5 +1,5 @@
 [![Licence](https://img.shields.io/badge/licence-Apache%202.0-green)]()
-[![Helm](https://img.shields.io/badge/release-0.1.0-brightgreen)]()
+[![Helm](https://img.shields.io/badge/release-0.3.1-brightgreen)]()
 
 # helm-val
 
@@ -19,7 +19,7 @@ $ helm plugin update val
 ```
 Install a specific version
 ```shell
-$ helm plugin install https://github.com/HamzaZo/helm-val --version 0.3.0
+$ helm plugin install https://github.com/HamzaZo/helm-val --version 0.3.1
 ```
 You can also verify it's been installed using
 ```shell
