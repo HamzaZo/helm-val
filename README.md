@@ -1,5 +1,5 @@
 [![Licence](https://img.shields.io/badge/licence-Apache%202.0-green)]()
-[![Helm](https://img.shields.io/badge/release-0.1.0-brightgreen)]()
+[![Helm](https://img.shields.io/badge/release-0.3.1-brightgreen)]()
 
 # helm-val
 
