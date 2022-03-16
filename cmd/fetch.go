@@ -125,7 +125,6 @@ func runFetch(args []string) (map[string]interface{}, error) {
 	} else {
 		previousRelease = revision
 	}
-	fmt.Println(previousRelease)
 	gVal := action.NewGetValues(ac)
 	gVal.Version = previousRelease
 	gVal.AllValues = true
@@ -136,5 +135,4 @@ func runFetch(args []string) (map[string]interface{}, error) {
 	}
 
 	return relVal, nil
-
 }
